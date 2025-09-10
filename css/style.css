@@ -1,0 +1,301 @@
+.logo {
+    width: 50px; /* You can adjust the size as needed */
+    height: 48px; /* Ensure the height is the same as the width for a perfect circle */
+    border-radius: 100%; /* This creates the circular shape */
+    overflow: hidden; /* This ensures any overflow content is hidden */
+    display: inline-block; /* Ensures the element is treated as an inline-block element */
+}
+
+.logo img {
+    width: 30px;
+    height: 24px;
+    object-fit: cover; /* Ensures the image covers the entire circle without distortion */
+}
+.booking-open{
+    background-color: cornflowerblue;
+    color: black;
+    height: 20px;
+    font-size:small;
+    width:100%;
+    text-align: center;
+}
+/* Reservations Table Styling */
+.reservations-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 3px solid #007bff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reservations-container h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reservations-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.reservations-table th, .reservations-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.reservations-table th {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.reservations-table td {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.reservations-table tr:hover {
+    background-color: #e9ecef;
+}
+
+.no-reservations-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-top: 20px;
+}
+
+
+.our-ground {
+    background-color: #f8f9fa; /* Light background color */
+    color: #343a40; /* Dark text color for contrast */
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px auto; /* Centered with margin */
+    max-width: 800px; /* Maximum width for larger screens */
+}
+.our-ground h1 {
+    margin: 0 0 20px;
+    font-size: 2.5rem; /* Larger font size */
+    color: #007bff; /* Blue color matching theme */
+    line-height: 1.2;
+}
+.our-ground h2 {
+    margin: 10px 0;
+    font-size: 1.5rem; /* Slightly smaller font size */
+    color: #343a40; /* Dark text color */
+}
+.our-ground a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #007bff; /* Underline effect */
+    padding-bottom: 2px;
+}
+.our-ground a:hover {
+    text-decoration: underline;
+} #book-your-ground {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 50px 0; /* Padding around the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px auto; /* Centered with margin */
+    max-width: 800px; /* Maximum width for larger screens */
+}
+#book-your-ground h1 {
+    color: #007bff; /* Primary color for the title */
+    font-size: 2.5rem; /* Larger font size for the title */
+    margin-bottom: 30px; /* Space below the title */
+    text-align: center;
+}
+.main-book {
+    margin-top: 30px; /* Space above the input fields */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.boook, .select-book {
+    width: 100%; /* Full width input fields */
+    padding: 15px; /* Padding inside the input fields */
+    margin-bottom: 20px; /* Space below the input fields */
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.1rem; /* Slightly larger font size */
+    max-width: 400px; /* Max width for better appearance */
+    box-sizing: border-box;
+}
+.boook::placeholder {
+    color: #6c757d; /* Placeholder text color */
+    opacity: 0.7; /* Placeholder text opacity */
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.rulesAndRegulations {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #007bff;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #007bff !important; /* Primary color */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h3 {
+    color: #007bff !important; /* Primary color */
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.head-footer{
+    color: #fff !important;
+}
+p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #333;
+}
+.rule-number {
+    font-weight: bold;
+}.owners {
+    margin: 20px;
+}
+.card {
+    border: 3px solid #007bff !important;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card-text{
+    
+    color: #007bff !important;
+}
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+.card-title {
+    font-size: 1.5rem;
+    color: #007bff !important;
+    margin-bottom: 15px;
+}
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    transition: background-color 0.2s;
+}
+.whatsapp-button {
+    background-color: #ffffff; /* WhatsApp green */
+}
+.whatsapp-button:hover {
+    background-color: #ffffff; /* Darker green on hover */
+}
+.gmail-button {
+    background-color: #ffffff; /* Gmail red */
+}
+.gmail-button:hover {
+    background-color: #ffffff; /* Darker red on hover */
+}
+.github-button {
+    background-color: #ffffff; /* GitHub black */
+}
+.github-button:hover {
+    background-color: #ffffff; /* Darker black on hover */
+}
+@media (max-width: 768px) {
+    .col-sm-6 {
+        margin-bottom: 20px;
+    }
+}
+footer {
+    background-color: #007bff; /* Matches the navigation bar color */
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+/* Base styles for the heading */
+.fade-beat-animation {
+    font-size: 3em;
+    text-align: center;
+    color: #333;
+    animation: fadeBeat 2s infinite; /* Apply the animation */
+}
+
+/* Keyframes for fade and beat animation */
+@keyframes fadeBeat {
+    0%, 100% {
+        opacity: 0.3;       /* Fades out */
+        transform: scale(1); /* Regular size */
+    }
+    50% {
+        opacity: 1;         /* Fades in */
+        transform: scale(1.2); /* Slightly larger for the "beat" effect */
+    }
+}
+
+footer h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+}
+footer p {
+    margin: 10px 0;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.footer-links {
+    margin: 20px 0;
+}
+.footer-links a {
+    margin: 0 15px;
+    display: inline-block;
+}
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.social-links img {
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
+    vertical-align: middle;
+}
