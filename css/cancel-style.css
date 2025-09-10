@@ -1,0 +1,105 @@
+#cancel-booking {
+    background-color: #f8f9fa; /* Light background color for the form */
+    padding: 40px; /* Padding around the form */
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Max width to center the form */
+    margin: 20px auto; /* Center the form horizontally */
+}
+
+#cancel-booking h1 {
+    color: #007bff; /* Primary color for the heading */
+    font-size: 2rem; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center the heading */
+}
+
+#cancel-booking label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 8px; /* Space below the labels */
+    font-weight: bold; /* Make label text bold */
+}
+
+#cancel-booking input[type="text"]{
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside the input fields */
+    margin-bottom: 20px; /* Space below the input fields */
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size for input fields */
+}
+#cancel-booking input[type="date"]{
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside the input fields */
+    margin-bottom: 20px; /* Space below the input fields */
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size for input fields */
+}
+
+#cancel-booking select {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding inside the input fields */
+    margin-bottom: 20px; /* Space below the input fields */
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size for input fields */
+}
+
+#cancel-booking input[type="submit"] {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+#cancel-booking input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+footer {
+    background-color: #007bff; /* Matches the navigation bar color */
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+footer h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+}
+footer p {
+    margin: 10px 0;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.footer-links {
+    margin: 20px 0;
+}
+.footer-links a {
+    margin: 0 15px;
+    display: inline-block;
+}
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.social-links img {
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
+    vertical-align: middle;
+}
